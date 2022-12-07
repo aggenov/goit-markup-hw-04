@@ -145,19 +145,11 @@ img {
 
 .hero {
     background-color: var(--main-color);
-
-    padding-left: auto;
-    padding-right: auto;
-}
-
-.hero .container {
-    /* display: flex; */
-    /* flex-direction: column;
-    align-items: center; */
     padding-top: 192px;
     padding-bottom: 192px;
     text-align: center;
 }
+
 
 .text-hero {
     max-width: 492px;
@@ -174,18 +166,16 @@ img {
 /* Button Hero */
 .button-hero {
     text-align: center;
-    /* display: flex; */
-    /* align-items: center; */
     padding: 16px 32px;
+
     
     color: #FFFFFF;
     background-color: var(--button-color);
-    border-color: var(--button-color);
+    border-color: transparent;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.04em;
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
     border-radius: 4px;
     cursor: pointer;
     
@@ -208,9 +198,6 @@ img {
 /* section Feature */
 .feature {
     background-color: #FFFFFF;
- }
-
- .feature .container {
     padding-top: 120px;
  }
 
@@ -270,13 +257,10 @@ img {
 /* section Projects */
 .projects {
     margin: 0 auto;
-}
- 
-.projects .container{
-    flex-direction: column;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+ 
 
 .projects-list {
     display: flex;
@@ -289,13 +273,10 @@ img {
 .team {
     background-color: var(--background-color);
     margin: 0 auto;
-}
-
-.team .container {
-    display: block;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 
 .team-list {
     display: flex;
@@ -325,12 +306,8 @@ img {
 /* footer */
 .endscreen {
     background-color: var(--main-color);
-}
-
-.endscreen .container {
     padding-top: 100px;
     padding-bottom: 100px;
-    display: block;
 }
 
 .logo-footer {
@@ -345,18 +322,13 @@ img {
     line-height: 1,5;
     color: var(--button-color-border);
     max-width: 264px;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 
 
 /* Portfolio */
-.developments {
-    /* background-color: var(--background-white); */
-}
 
-.developments .container {
-    flex-direction: column;
-    align-items: center;
+.developments{
     padding-top: 96px;
     padding-bottom: 120px;
 }
