@@ -448,20 +448,22 @@ img {
 }
 .footer-social-item {
   background-color: rgba(255, 255, 255, 0.1);
-  display: flex;
+  display: block;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-social-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
-.footer-social .link-icon {
+.footer-social-link .link-icon {
+  display: block;
   height: 24px;
   width: 24px;
 }
