@@ -453,8 +453,13 @@ img {
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.footer-social-link {
+  display: block;
   padding: 8px;
 }
+
 .footer-social .link-icon {
   height: 24px;
   width: 24px;
